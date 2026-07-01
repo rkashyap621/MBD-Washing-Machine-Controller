@@ -55,12 +55,12 @@ WMC_Ver01_CoreCycle/
 │   ├── WMC_Ver01_CoreCycle_Requirements_Traceability_Matrix.png
 │   ├── WMC_Ver01_Cycle_Complete.png
 │   ├── WMC_Ver01_Cycle_Complete_to_Idle.png
-│   └── WMC_Ver01_Idle_Start.png
-│   └── WMC_Ver01_Rinse_Cycle.png
-│   └── WMC_Ver01_Scope_Result.png
-│   └── WMC_Ver01_Spin_Cycle.png
-│   └── WMC_Ver01_Symbols_Pane.png
-│   └── WMC_Ver01_Top_Level_Model.png
+│   ├── WMC_Ver01_Idle_Start.png
+│   ├── WMC_Ver01_Rinse_Cycle.png
+│   ├── WMC_Ver01_Scope_Result.png
+│   ├── WMC_Ver01_Spin_Cycle.png
+│   ├── WMC_Ver01_Symbols_Pane.png
+│   ├──WMC_Ver01_Top_Level_Model.png
 │   └── WMC_Ver01_Wash_Cycle.png
 ├── model/
 │   └── WMC_Ver01_CoreCycle.slx
@@ -71,8 +71,8 @@ WMC_Ver01_CoreCycle/
 │   └── WMC_Ver_01_CoreCycle~mdl.slmx
 ├── results/
 │   ├── WMC_Ver01_CoreCycle_Requirements.pdf
-│   └── WMC_Ver01_CoreCycle_Requirements_Consistency_Check.html
-│   └── WMC_Ver01_CoreCycle_Traceability_Matrix.html
+│   ├── WMC_Ver01_CoreCycle_Requirements_Consistency_Check.html
+│   ├── WMC_Ver01_CoreCycle_Traceability_Matrix.html
 │   └── WMC_Ver01_Scope_Result.png
 └── README.md
 ```
