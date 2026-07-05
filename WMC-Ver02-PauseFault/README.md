@@ -44,65 +44,65 @@ Ver. 02 does not include the `stage_status` output or mutual-exclusion diagnosti
 
 ```text
 WMC-Ver02-PauseFault/
-├── images/
-│   ├── WMC_Ver02_Chart.png
-│   ├── WMC_Ver02_Chart_Spin_Resume_with_Door_Open.png
-│   ├── WMC_Ver02_Chart_with_Links.png
-│   ├── WMC_Ver02_Requirements_Consistency_Check.png
-│   ├── WMC_Ver02_Requirements_Consistency_Check_Report.png
-│   ├── WMC_Ver02_Requirements_Links_Part1.png
-│   ├── WMC_Ver02_Requirements_Links_Part2.png
-│   ├── WMC_Ver02_Requirements_Traceability_Matrix.png
-│   ├── WMC_Ver02_Rinse_Entry_Before_Fault.png
-│   ├── WMC_Ver02_Rinse_Entry_Before_Pause.png
-│   ├── WMC_Ver02_Rinse_Fault.png
-│   ├── WMC_Ver02_Rinse_Fault_Idle_Reset.png
-│   ├── WMC_Ver02_Rinse_Paused.png
-│   ├── WMC_Ver02_Rinse_Resumed.png
-│   ├── WMC_Ver02_Spin_Entry_Before_Fault.png
-│   ├── WMC_Ver02_Spin_Entry_Before_Pause.png
-│   ├── WMC_Ver02_Spin_Fault.png
-│   ├── WMC_Ver02_Spin_Fault_Idle_Reset.png
-│   ├── WMC_Ver02_Spin_Paused.png
-│   ├── WMC_Ver02_Spin_Resume_with_Door_Open.png
-│   ├── WMC_Ver02_Spin_Resumed.png
-│   ├── WMC_Ver02_Symbols_Pane.png
-│   ├── WMC_Ver02_Top_Level_Model.png
-│   ├── WMC_Ver02_Wash_Detergent_Fill_Before_Timeout.png
-│   ├── WMC_Ver02_Wash_Detergent_Fill_Fault_After_Timeout.png
-│   ├── WMC_Ver02_Wash_Detergent_Fill_Timeout_Fault_Reset.png
-│   ├── WMC_Ver02_Wash_Entry_Before_Fault.png
-│   ├── WMC_Ver02_Wash_Entry_Before_Pause.png
-│   ├── WMC_Ver02_Wash_Fault.png
-│   ├── WMC_Ver02_Wash_Fault_Idle_Reset.png
-│   ├── WMC_Ver02_Wash_Paused.png
-│   └── WMC_Ver02_Wash_Resumed.png
-├── model/
-│   └── WMC_Ver_02_PauseFault.slx
-├── requirements/
-│   ├── WMC_Ver02_PauseFault_Requirements.pdf
-│   ├── WMC_Ver02_PauseFault_Requirements.xlsx
-│   ├── WMC_Ver_02_PauseFault_Requirements.slreqx
-│   └── WMC_Ver_02_PauseFault~mdl.slmx
-├── results/
-│   ├── WMC_Ver_02_PauseFault_Requirements_Report.pdf
-│   ├── WMC_Ver02_PauseFault_Requirements_Consistency_Check_Report.pdf
-│   ├── WMC_Ver02_PauseFault_Requirements_Traceability_Matrix.html
-│   ├── WMC_Ver02_PauseFault_Requirements_Traceability_Matrix.xlsx
-│   ├── WMC_Ver02_Scope_Actuator_Outputs.png
-│   ├── WMC_Ver02_Scope_Detergent_Fill_Timeout_Fault_Activation_and_Reset.png
-│   ├── WMC_Ver02_Scope_Detergent_Valve_Before_and_After_Timeout.png
-│   ├── WMC_Ver02_Scope_Diagnostic_Outputs.png
-│   ├── WMC_Ver02_Scope_Rinse_Cycle_Fault.png
-│   ├── WMC_Ver02_Scope_Rinse_Cycle_Fault_Activation_and_Reset.png
-│   ├── WMC_Ver02_Scope_Rinse_Paused_and_Resumed.png
-│   ├── WMC_Ver02_Scope_Spin_Cycle_Fault.png
-│   ├── WMC_Ver02_Scope_Spin_Cycle_Fault_Activation_and_Reset.png
-│   ├── WMC_Ver02_Scope_Spin_Paused_and_Resumed.png
-│   ├── WMC_Ver02_Scope_Wash_Cycle_Fault.png
-│   ├── WMC_Ver02_Scope_Wash_Cycle_Fault_Activation_and_Reset.png
-│   └── WMC_Ver02_Scope_Wash_Paused_and_Resumed.png
-└── README.md
+|-- images/
+|   |-- WMC_Ver02_Chart.png
+|   |-- WMC_Ver02_Chart_Spin_Resume_with_Door_Open.png
+|   |-- WMC_Ver02_Chart_with_Links.png
+|   |-- WMC_Ver02_Requirements_Consistency_Check.png
+|   |-- WMC_Ver02_Requirements_Consistency_Check_Report.png
+|   |-- WMC_Ver02_Requirements_Links_Part1.png
+|   |-- WMC_Ver02_Requirements_Links_Part2.png
+|   |-- WMC_Ver02_Requirements_Traceability_Matrix.png
+|   |-- WMC_Ver02_Rinse_Entry_Before_Fault.png
+|   |-- WMC_Ver02_Rinse_Entry_Before_Pause.png
+|   |-- WMC_Ver02_Rinse_Fault.png
+|   |-- WMC_Ver02_Rinse_Fault_Idle_Reset.png
+|   |-- WMC_Ver02_Rinse_Paused.png
+|   |-- WMC_Ver02_Rinse_Resumed.png
+|   |-- WMC_Ver02_Spin_Entry_Before_Fault.png
+|   |-- WMC_Ver02_Spin_Entry_Before_Pause.png
+|   |-- WMC_Ver02_Spin_Fault.png
+|   |-- WMC_Ver02_Spin_Fault_Idle_Reset.png
+|   |-- WMC_Ver02_Spin_Paused.png
+|   |-- WMC_Ver02_Spin_Resume_with_Door_Open.png
+|   |-- WMC_Ver02_Spin_Resumed.png
+|   |-- WMC_Ver02_Symbols_Pane.png
+|   |-- WMC_Ver02_Top_Level_Model.png
+|   |-- WMC_Ver02_Wash_Detergent_Fill_Before_Timeout.png
+|   |-- WMC_Ver02_Wash_Detergent_Fill_Fault_After_Timeout.png
+|   |-- WMC_Ver02_Wash_Detergent_Fill_Timeout_Fault_Reset.png
+|   |-- WMC_Ver02_Wash_Entry_Before_Fault.png
+|   |-- WMC_Ver02_Wash_Entry_Before_Pause.png
+|   |-- WMC_Ver02_Wash_Fault.png
+|   |-- WMC_Ver02_Wash_Fault_Idle_Reset.png
+|   |-- WMC_Ver02_Wash_Paused.png
+│   `-- WMC_Ver02_Wash_Resumed.png
+|-- model/
+│   `-- WMC_Ver_02_PauseFault.slx
+|-- requirements/
+|   |-- WMC_Ver02_PauseFault_Requirements.pdf
+|   |-- WMC_Ver02_PauseFault_Requirements.xlsx
+|   |-- WMC_Ver_02_PauseFault_Requirements.slreqx
+│   `-- WMC_Ver_02_PauseFault~mdl.slmx
+|-- results/
+|   |-- WMC_Ver_02_PauseFault_Requirements_Report.pdf
+|   |-- WMC_Ver02_PauseFault_Requirements_Consistency_Check_Report.pdf
+|   |-- WMC_Ver02_PauseFault_Requirements_Traceability_Matrix.html
+|   |-- WMC_Ver02_PauseFault_Requirements_Traceability_Matrix.xlsx
+|   |-- WMC_Ver02_Scope_Actuator_Outputs.png
+|   |-- WMC_Ver02_Scope_Detergent_Fill_Timeout_Fault_Activation_and_Reset.png
+|   |-- WMC_Ver02_Scope_Detergent_Valve_Before_and_After_Timeout.png
+|   |-- WMC_Ver02_Scope_Diagnostic_Outputs.png
+|   |-- WMC_Ver02_Scope_Rinse_Cycle_Fault.png
+|   |-- WMC_Ver02_Scope_Rinse_Cycle_Fault_Activation_and_Reset.png
+|   |-- WMC_Ver02_Scope_Rinse_Paused_and_Resumed.png
+|   |-- WMC_Ver02_Scope_Spin_Cycle_Fault.png
+|   |-- WMC_Ver02_Scope_Spin_Cycle_Fault_Activation_and_Reset.png
+|   |-- WMC_Ver02_Scope_Spin_Paused_and_Resumed.png
+|   |-- WMC_Ver02_Scope_Wash_Cycle_Fault.png
+|   |-- WMC_Ver02_Scope_Wash_Cycle_Fault_Activation_and_Reset.png
+│   `-- WMC_Ver02_Scope_Wash_Paused_and_Resumed.png
+`-- README.md
 
 
 ```
