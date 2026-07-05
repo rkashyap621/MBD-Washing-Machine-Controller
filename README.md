@@ -4,9 +4,13 @@ This repository contains a version-wise Model-Based Design project for a Washing
 
 The project demonstrates how a controller can evolve from a basic sequential Stateflow model into a requirement-linked, fault-aware, and verification-friendly model with diagnostic visibility.
 
+---
+
 ## Project Objective
 
 The objective of this project is to practice requirement-based Model-Based Design using a realistic controller example. Each version adds a new layer of functionality, verification evidence, and documentation maturity.
+
+---
 
 ## Project Versions
 
@@ -16,11 +20,15 @@ The objective of this project is to practice requirement-based Model-Based Desig
 | Ver. 02 | Pause/resume, history junction, fault handling, and timeout fault | `WMC-Ver02-PauseFault/` |
 | Ver. 03 | Final model with stage-status display, mutual-exclusion diagnostics, requirements consistency check, and traceability | `WMC-Ver03-Final-Model/` |
 
+---
+
 ## Tools Used
 - MATLAB R2026a
 - Simulink
 - Stateflow
 - Requirements Toolbox
+
+---
 
 ## Key Features
 
@@ -36,6 +44,8 @@ The objective of this project is to practice requirement-based Model-Based Desig
 - Requirements consistency checking
 - Traceability matrix generation
 - Simulation evidence organized using `images/` and `results/` folders
+
+---
 
 ## Repository Structure
 
